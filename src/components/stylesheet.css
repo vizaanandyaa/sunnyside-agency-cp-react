@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+
+
+.header{
+    background-image: url(../images/desktop/image-header.jpg);
+    
+}
+
+.headerNav{
+    display: flex;
+    font-family: 'Barlow', sans-serif;
+}
+
+.headerNav img{
+    width: 10%;
+    height: 5%;
+    margin: 3% 3%;
+}
+
+.headerNav ul{
+    display: flex;
+    width: 77%;
+    justify-content: flex-end;
+}
+
+.headerNav li{
+    margin: 5px;
+    padding: 2%;
+    list-style-type: none;
+    width: 10%;
+}
+
+.headerNav li a{
+    color: white;
+    text-decoration: none;
+    padding: 20% 30%;
+}
+
+.headerNav li a:hover{
+    background-color: hsl(199, 100%, 72%);
+    border-radius: 50px;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+}
