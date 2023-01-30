@@ -5,7 +5,8 @@
 
 .header{
     background-image: url(../images/desktop/image-header.jpg);
-    
+    background-size: cover;
+    padding-bottom: 180px;
 }
 
 .headerNav{
@@ -26,16 +27,16 @@
 }
 
 .headerNav li{
-    margin: 5px;
-    padding: 2%;
+    margin: 5px 0px;
+    padding: 15px 10px;
     list-style-type: none;
-    width: 10%;
+    width: 130px;
 }
 
 .headerNav li a{
     color: white;
     text-decoration: none;
-    padding: 20% 30%;
+    padding: 10% 20%;
 }
 
 .headerNav li a:hover{
@@ -43,4 +44,26 @@
     border-radius: 50px;
     font-family: 'Fraunces', serif;
     text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.header h1{
+   text-align: center;
+   font-family: 'Fraunces', serif;
+   font-size: 40px;
+   color: white;
+   font-weight: 900;
+   letter-spacing: 8px;
+   margin: 60px;
+}
+
+.arrowDown{
+    display: block;
+    margin: auto;
+    padding-top:50px;
+}
+
+.cobakiri{
+    width: 200px;
 }

@@ -6,19 +6,24 @@ import './stylesheet.css'
 
 class Header extends Component{
     render(){
+        const navBar = [{name :'About', link :'www.aaa'},
+                        {name:'Service',link :'www.sasa'},
+                        {name:'Projects',link:'www.papa'},
+                        {name:'Contact',link:'www.caca'}];
         return(
             <div className="header">
                 <div className="headerNav">
                     <img src={logo} alt="" />
                     <ul>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">Contact</a></li>
+                        {navBar.map((val,index)=>{
+                            return(
+                                <li><a href={val.link} key={index}>{val.name}</a></li>
+                            )
+                        })}
                     </ul>
                 </div>
                 <h1>WE ARE CREATIVES</h1>
-                <img src={arrowDown} alt="" />
+                <img className="arrowDown" src={arrowDown} alt="" />
             </div> 
         );
     }
