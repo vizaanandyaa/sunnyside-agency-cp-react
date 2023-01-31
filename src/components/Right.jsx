@@ -9,8 +9,11 @@ class Right extends Component{
                     <img src={this.props.image} alt="" />
                 </div>
                 <div className="contentDesc">
-                    <h1>{this.props.title}</h1>
-                    <p>{this.props.desc}</p>
+                    <div className="wrapper">
+                        <h1>{this.props.title}</h1>
+                        <p>{this.props.desc}</p>
+                        <a href={this.props.link}>LEARN MORE</a>
+                    </div>
                 </div>
             </div>
         )

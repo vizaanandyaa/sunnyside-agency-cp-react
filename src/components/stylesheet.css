@@ -74,6 +74,33 @@
     width: 50%;
 }
 
+.wrapper{
+    padding: 23% 16% 20% 18%;
+}
+
+.wrapper h1{
+    font-family: 'Fraunces', serif;
+    width: 80%;
+    font-weight: 900;
+    color: #232f40;
+}
+
+.wrapper p{
+    font-family: 'Barlow', sans-serif;
+    color: #908e96;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.wrapper a{
+    text-decoration: none;
+    font-family: 'Fraunces', serif;
+    font-size: 14px;
+    color: #232f40;
+    font-weight: 900;
+}
+
+
 .contentImg{
     width: 50%;
 }
