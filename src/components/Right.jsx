@@ -4,8 +4,14 @@ import './stylesheet.css';
 class Right extends Component{
     render(){
         return(
-            <div className="cobakiri">
-                <p>lalala</p>
+            <div className="content">
+                 <div className="contentImg">
+                    <img src={this.props.image} alt="" />
+                </div>
+                <div className="contentDesc">
+                    <h1>{this.props.title}</h1>
+                    <p>{this.props.desc}</p>
+                </div>
             </div>
         )
     }
