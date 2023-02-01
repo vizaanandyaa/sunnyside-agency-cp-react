@@ -3,7 +3,8 @@ import React from "react";
 import Left from "./Left";
 import Right from "./Right";
 import imgTrans from "../images/desktop/image-transform.jpg";
-import imgStand from "../images/desktop/image-stand-out.jpg"
+import imgStand from "../images/desktop/image-stand-out.jpg";
+import Services from "./Services";
 
 class Content extends Component{
     render(){
@@ -31,6 +32,7 @@ class Content extends Component{
                         )
                     }
                 })}
+                <Services/>
             </div>
         )
     }
