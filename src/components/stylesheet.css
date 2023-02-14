@@ -68,6 +68,7 @@
 
 .content{
     display: flex;
+    height: 525px;
 }
 
 .contentDesc{
@@ -106,5 +107,15 @@
 }
 
 .contentImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.conImgDesc{
+    width: 50%;
+    overflow: hidden;
+}
+
+.conImgDesc img{
     width: 100%;
 }

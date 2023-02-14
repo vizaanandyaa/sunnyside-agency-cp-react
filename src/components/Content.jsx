@@ -18,6 +18,13 @@ class Content extends Component{
             title:"Stand out to the right audience",
             description : "Using a collaborative formula of designers, researches, phototographers,videographers, and copywriters, we'll build and extend your brand in digital places",
             links : 'www.youtube.com'
+        }];
+        const services = [{
+            title : "Graphic Design",
+            description : "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential client's attention."
+        },{
+            title : 'Photography',
+            description : 'Increase your credibility by getting the most stunning, high-quality photos that improve your business image.'
         }]
         return(
             <div>
@@ -32,7 +39,9 @@ class Content extends Component{
                         )
                     }
                 })}
-                <Services/>
+                {services.map((service,index)=>{
+                    return(<Services />)
+                })}
             </div>
         )
     }
