@@ -12,6 +12,7 @@ root.render(
   <React.StrictMode>
     <Header />
     <Content />
+    <Services/>
   </React.StrictMode>
 );
 

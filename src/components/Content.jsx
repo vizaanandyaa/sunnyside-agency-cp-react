@@ -39,9 +39,7 @@ class Content extends Component{
                         )
                     }
                 })}
-                {services.map((service,index)=>{
-                    return(<Services />)
-                })}
+                
             </div>
         )
     }
