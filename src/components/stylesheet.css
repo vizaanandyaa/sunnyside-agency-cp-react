@@ -140,3 +140,7 @@
 .servWrapper p{
     font-family: 'Barlow', sans-serif;
 }
+
+.client{
+    display: flex;
+}

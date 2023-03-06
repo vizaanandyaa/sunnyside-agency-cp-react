@@ -12,19 +12,27 @@ class Testimonials extends Component{
             name : 'Emily R.',
             position: 'Marketing Director'
         },{
-            profile : jennie,
+            profile : thomas,
             quotes : "Sunnyside's enthusiasm coupied with their keen interest in our brand's success made it a satisfying and enjoyable experience.",
             name : 'Thomas S.',
             position: 'Chief Operating Officer'
         },{
-            profile : thomas,
+            profile : jennie,
             quotes : "Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!",
             name : 'Jennie F.',
             position: 'Business Owner'
         }]
         return(
-            <div >
-                <Customers profile ={customData.profile} quotes={customData.quotes} name={customData.name} position={customData.position}/>
+            <div className="testimoni">
+                <h3>CLIENT TESTIMONIALS</h3>
+                <div className="client">
+                    {customData.map((data,index)=>{
+                        return(
+                            <Customers key={index} photo ={data.profile} quote={data.quotes} name={data.name} position={data.position}/>
+                        )
+                        
+                    })}
+                </div>
             </div>
         )
     }

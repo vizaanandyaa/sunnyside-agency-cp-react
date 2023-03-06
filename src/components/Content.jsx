@@ -4,6 +4,7 @@ import Left from "./Left";
 import Right from "./Right";
 import imgTrans from "../images/desktop/image-transform.jpg";
 import imgStand from "../images/desktop/image-stand-out.jpg";
+import './stylesheet.css';
 
 class Content extends Component{
     render(){
