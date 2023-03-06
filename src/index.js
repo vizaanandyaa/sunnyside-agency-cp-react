@@ -6,6 +6,7 @@ import Content from './components/Content';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import Gallery from './components/Gallery';
+import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
     <Services/>
     <Testimonials />
     <Gallery />
+    <Footer/>
   </React.StrictMode>
 );
 
