@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import Header from './components/Header';
 import Content from './components/Content';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
+import Gallery from './components/Gallery';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +15,7 @@ root.render(
     <Content />
     <Services/>
     <Testimonials />
+    <Gallery />
   </React.StrictMode>
 );
 

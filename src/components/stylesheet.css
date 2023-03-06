@@ -179,3 +179,11 @@ h1,h2,h3,h4,h5{
     font-size: 13px;
     opacity: 0.3;
 }
+
+.gallery{
+    display: flex;
+}
+
+.gallery img{
+    width: 25%;
+}
