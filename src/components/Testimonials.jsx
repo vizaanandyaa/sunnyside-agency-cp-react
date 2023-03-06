@@ -24,7 +24,7 @@ class Testimonials extends Component{
         }]
         return(
             <div className="testimoni">
-                <h3>CLIENT TESTIMONIALS</h3>
+                <h4>CLIENT TESTIMONIALS</h4>
                 <div className="client">
                     {customData.map((data,index)=>{
                         return(

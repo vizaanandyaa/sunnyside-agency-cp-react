@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+p{
+    font-family: 'Barlow', sans-serif;
+}
 
+h1,h2,h3,h4,h5{
+    font-family: 'Fraunces', serif;
+}
 
 
 .header{
@@ -51,7 +57,6 @@
 
 .header h1{
    text-align: center;
-   font-family: 'Fraunces', serif;
    font-size: 40px;
    color: white;
    font-weight: 900;
@@ -88,14 +93,12 @@
 }
 
 .wrapper h1{
-    font-family: 'Fraunces', serif;
     width: 80%;
     font-weight: 900;
     color: #232f40;
 }
 
 .wrapper p{
-    font-family: 'Barlow', sans-serif;
     color: #908e96;
     line-height: 20px;
     font-size: 15px;
@@ -133,14 +136,46 @@
 
 .servWrapper h2{
     margin-bottom: 30px;
-    font-family: 'Fraunces', serif;
     font-weight: 900;
 }
 
-.servWrapper p{
-    font-family: 'Barlow', sans-serif;
-}
+
 
 .client{
     display: flex;
+}
+
+.testimoni{
+    margin: 140px 80px;
+    text-align: center;
+}
+
+.testimoni h4{
+    letter-spacing: 3px;
+    margin-bottom: 70px;
+    opacity: 0.3;
+}
+
+.person{
+    padding: 0 40px;
+}
+
+.person img{
+    border-radius: 100%;
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+.quote{
+    opacity: 0.6;
+    margin-bottom: 50px;
+}
+
+.person h5{
+    font-size: 15px;
+}
+
+.position{
+    font-size: 13px;
+    opacity: 0.3;
 }

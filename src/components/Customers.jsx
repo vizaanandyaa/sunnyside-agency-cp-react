@@ -3,11 +3,11 @@ import { Component } from "react";
 class Customers extends Component{
     render(){
         return(
-            <div className="customer">
+            <div className="person">
                 <img src={this.props.photo} alt="" />
-                <p>{this.props.quote}</p>
+                <p className="quote">{this.props.quote}</p>
                 <h5>{this.props.name}</h5>
-                <p>{this.props.position}</p>
+                <p className="position">{this.props.position}</p>
             </div>
         )
     }
