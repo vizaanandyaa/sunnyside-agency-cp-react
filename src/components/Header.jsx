@@ -6,6 +6,7 @@ import './stylesheet.css'
 
 class Header extends Component{
     render(){
+        document.title = 'SunnySide';
         const navBar = [{name :'About', link :'www.aaa'},
                         {name:'Service',link :'www.sasa'},
                         {name:'Projects',link:'www.papa'},
