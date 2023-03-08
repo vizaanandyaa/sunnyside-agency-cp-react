@@ -17,7 +17,7 @@ class Header extends Component{
                     <ul>
                         {navBar.map((val,index)=>{
                             return(
-                                <li><a href={val.link} key={index}>{val.name}</a></li>
+                                <li key={index}><a href={val.link} >{val.name}</a></li>
                             )
                         })}
                     </ul>

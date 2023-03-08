@@ -190,8 +190,37 @@ h1,h2,h3,h4,h5{
 
 .footer{
     background-color: #90d4c5;
+    text-align: center;
 }
 
 .logo{
-    fill: black;
+    margin: 60px 0 30px;
+}
+
+.footbar{
+    margin-bottom: 70px;
+}
+
+.footbar a{
+    padding: 0 20px;
+    text-decoration: none;
+    color:#2c7566;
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+}
+
+.footbar a:hover{
+    color: white;
+}
+
+.footicon{
+    padding-bottom: 50px;
+}
+
+.footicon a{
+    padding: 0 10px;
+}
+
+.footicon path:hover{
+    fill: white;
 }
