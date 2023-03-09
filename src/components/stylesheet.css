@@ -18,19 +18,24 @@ h1,h2,h3,h4,h5{
 }
 
 .headerNav{
-    display: flex;
     font-family: 'Barlow', sans-serif;
+    margin-left: 31%;
 }
 
-.headerNav img{
+
+.headerWrapper{
+    display: flex;
+}
+
+.logo{
     width: 10%;
     height: 5%;
-    margin: 3% 3%;
+    margin: 3%;
 }
 
 .headerNav ul{
     display: flex;
-    width: 77%;
+    width: 100%;
     justify-content: flex-end;
 }
 
@@ -38,7 +43,7 @@ h1,h2,h3,h4,h5{
     margin: 5px 0px;
     padding: 15px 10px;
     list-style-type: none;
-    width: 130px;
+    width: 120px;
 }
 
 .headerNav li a{
@@ -64,6 +69,19 @@ h1,h2,h3,h4,h5{
    font-weight: 900;
    letter-spacing: 8px;
    margin: 60px;
+}
+
+.hamburger-menu{
+    display: none;
+    background: none;
+    background-repeat: no-repeat;
+    width: 20%;
+    border: none;
+    margin-left: 55%;
+}
+
+.hamburger-menu img{
+    width: 20%;
 }
 
 .arrowDown{
@@ -231,7 +249,7 @@ h1,h2,h3,h4,h5{
 }
 
 @media (max-width: 1090px) {
-    .content,.contServices,.servWrapper,.client,.contentSwitch{
+    .content,.contServices,.servWrapper,.client,.contentSwitch,.hamburger-menu{
         display: block;
     }
 
@@ -247,7 +265,7 @@ h1,h2,h3,h4,h5{
         width: 50%;
     }
 
-    .contentLeft{
+    .contentLeft,.headerNav{
         display: none;
     }
 
@@ -262,5 +280,11 @@ h1,h2,h3,h4,h5{
     .serv1,.serv2{
         padding: 5% 0;
         background-position: center center;
+    }
+
+    .headerWrapper img{
+        width: 20%;
+        height: 15%;
+        margin: 5%;
     }
 }

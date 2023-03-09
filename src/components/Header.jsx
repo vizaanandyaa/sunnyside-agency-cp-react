@@ -1,6 +1,7 @@
 import { Component } from "react";
 import logo from '../logo.svg';
 import arrowDown from '../images/icon-arrow-down.svg'
+import menu from '../images/icon-hamburger.svg'
 import './stylesheet.css'
 
 
@@ -13,16 +14,20 @@ class Header extends Component{
                         {name:'Contact',link:'www.caca'}];
         return(
             <div className="header">
-                <div className="headerNav">
-                    <img src={logo} alt="" />
-                    <ul>
-                        {navBar.map((val,index)=>{
-                            return(
-                                <li key={index}><a href={val.link} >{val.name}</a></li>
-                            )
-                        })}
-                    </ul>
+                <div className="headerWrapper">
+                    <img className="logo" src={logo} alt="" />
+                    <div className="headerNav">
+                        <ul>
+                            {navBar.map((val,index)=>{
+                                return(
+                                    <li key={index}><a href={val.link} >{val.name}</a></li>
+                                )
+                            })}
+                        </ul>
+                    </div>
+                    <button className="hamburger-menu"><img src={menu} alt="" /></button>
                 </div>
+                
                 <h1>WE ARE CREATIVES</h1>
                 <img className="arrowDown" src={arrowDown} alt="" />
             </div> 
