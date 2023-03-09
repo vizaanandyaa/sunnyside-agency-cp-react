@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { React } from "react";
 import milk from "../images/desktop/image-gallery-milkbottles.jpg";
 import orange from "../images/desktop/image-gallery-orange.jpg"
 import cone from "../images/desktop/image-gallery-cone.jpg"
@@ -14,7 +15,7 @@ class Gallery extends Component{
                         <img key={index} src={image} alt="" />
                     )
                 })}
-            </div>
+            </div>   
         )
     }
 }
