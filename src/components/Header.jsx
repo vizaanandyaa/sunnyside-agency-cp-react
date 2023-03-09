@@ -15,7 +15,7 @@ class Header extends Component{
         return(
             <div className="header">
                 <div className="headerWrapper">
-                    <img className="logo" src={logo} alt="" />
+                    <img className="headerLogo" src={logo} alt="" />
                     <div className="headerNav">
                         <ul>
                             {navBar.map((val,index)=>{
@@ -25,7 +25,7 @@ class Header extends Component{
                             })}
                         </ul>
                     </div>
-                    <button className="hamburger-menu"><img src={menu} alt="" /></button>
+                    <button className="hamburger-menu"><img src={menu} style={{ height: 30, width: 35 }} alt="" /></button>
                 </div>
                 
                 <h1>WE ARE CREATIVES</h1>
