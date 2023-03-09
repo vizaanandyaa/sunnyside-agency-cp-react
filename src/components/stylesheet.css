@@ -11,6 +11,8 @@ h1,h2,h3,h4,h5{
 
 .header{
     background-image: url(../images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     padding-bottom: 180px;
 }
@@ -70,9 +72,13 @@ h1,h2,h3,h4,h5{
     padding-top:50px;
 }
 
-.content{
+.content,.contentLeft{
     display: flex;
     height: 525px;
+}
+
+.contentSwitch{
+    display: none;
 }
 
 .contentDesc{
@@ -138,7 +144,6 @@ h1,h2,h3,h4,h5{
     margin-bottom: 30px;
     font-weight: 900;
 }
-
 
 
 .client{
@@ -223,4 +228,39 @@ h1,h2,h3,h4,h5{
 
 .footicon path:hover{
     fill: white;
+}
+
+@media (max-width: 1090px) {
+    .content,.contServices,.servWrapper,.client,.contentSwitch{
+        display: block;
+    }
+
+    .contentDesc,.contentImg,.serv1,.serv2{
+        width: 100%;
+    }
+
+    .gallery{
+        display: block;
+    }
+
+    .gallery img{
+        width: 50%;
+    }
+
+    .contentLeft{
+        display: none;
+    }
+
+    .contServices{
+       margin: 100% 0 0;
+    }
+
+    .servWrapper{
+        display: block;
+    }
+
+    .serv1,.serv2{
+        padding: 5% 0;
+        background-position: center center;
+    }
 }
